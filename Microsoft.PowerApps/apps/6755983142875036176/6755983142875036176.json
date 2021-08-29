@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "1.0",
+  "appDefinitionTemplate": {
+    "id": "/providers/Microsoft.PowerApps/apps/",
+    "type": "Microsoft.PowerApps/apps",
+    "tags": {
+      "primaryDeviceWidth": "768",
+      "primaryDeviceHeight": "1366",
+      "sienaVersion": "20210829T023749Z-3.21083.28.0",
+      "deviceCapabilities": "",
+      "supportsPortrait": "true",
+      "supportsLandscape": "true",
+      "primaryFormFactor": "Tablet",
+      "publisherVersion": "3.21083.28",
+      "minimumRequiredApiVersion": "2.2.0",
+      "hasComponent": "false",
+      "hasUnlockedComponent": "false",
+      "isUnifiedRootApp": "false"
+    },
+    "properties": {
+      "appVersion": "2021-08-29T02:37:49Z",
+      "lifeCycleId": "Published",
+      "createdByClientVersion": {
+        "major": 3,
+        "minor": 21083,
+        "build": 28,
+        "revision": 0,
+        "majorRevision": 0,
+        "minorRevision": 0
+      },
+      "minClientVersion": {
+        "major": 3,
+        "minor": 21083,
+        "build": 28,
+        "revision": 0,
+        "majorRevision": 0,
+        "minorRevision": 0
+      },
+      "backgroundColor": "rgba(0, 176, 240, 1)",
+      "backgroundImageUri": "/6755983142875036176/N1e4b6ee2-1b6a-40fa-93a1-ae485b5c52a3-logoSmallFile",
+      "displayName": "ApprEimbursement",
+      "description": "",
+      "commitMessage": "",
+      "appUris": {
+        "documentUri": {
+          "value": "/6755983142875036176/N593d7d68-f95b-429f-95f8-2d15141629e3-document.msapp"
+        },
+        "imageUris": []
+      },
+      "createdTime": "0001-01-01T00:00:00Z",
+      "lastModifiedTime": "0001-01-01T00:00:00Z",
+      "sharedGroupsCount": 0,
+      "sharedUsersCount": 0,
+      "icons": {
+        "smallIconUri": "/6755983142875036176/N1add893a-96b1-4ccd-959a-23af8bc6c583-small.png",
+        "mediumIconUri": "/6755983142875036176/Nd8abdc98-edc8-4a04-8cc0-6b1b04f003af-medium.png",
+        "largeIconUri": "/6755983142875036176/N064df6ad-ea53-4efc-b16e-751cb865f2a7-large.png",
+        "wideIconUri": "/6755983142875036176/N106ede1b-412f-4623-b102-40daa19c8ddc-wide.png"
+      },
+      "connectionReferences": {
+        "3e783495-2973-4558-a8f7-0d5081865487": {
+          "id": "d93f48d6-bf6d-4634-9054-34aa7d0e06d0",
+          "displayName": "SharePoint",
+          "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1505/1.0.1505.2520/sharepointonline/icon.png",
+          "dataSources": ["AppReimbursement"],
+          "dependencies": [],
+          "dependents": [],
+          "parameterHints": {},
+          "parameterHintsV2": {},
+          "isOnPremiseConnection": false,
+          "bypassConsent": false,
+          "dataSets": {
+            "https://acadkroton.sharepoint.com/sites/Compliance": {
+              "dataSources": {
+                "AppReimbursement": {
+                  "tableName": "603f5841-03f1-4edd-895a-05cb6cfb3e47"
+                }
+              }
+            }
+          },
+          "apiTier": "Standard",
+          "isCustomApiConnection": false,
+          "actions": [
+            "providers/PowerPlatform.Governance/Operations/Read",
+            "providers/PowerPlatform.Governance/Operations/Write"
+          ]
+        }
+      },
+      "databaseReferences": {},
+      "almMode": "Environment",
+      "performanceOptimizationEnabled": true,
+      "canConsumeAppPass": true,
+      "executionRestrictions": {
+        "isTeamsOnly": false,
+        "dataLossPreventionEvaluationResult": {
+          "status": "Compliant",
+          "lastEvaluationDate": "2021-08-28T21:27:38.7114447Z",
+          "violations": [],
+          "violationsByPolicy": [],
+          "violationErrorMessage": "O aplicativo usa os seguintes conectores: ."
+        }
+      }
+    },
+    "appType": "ClassicCanvasApp",
+    "appComponents": []
+  }
+}
